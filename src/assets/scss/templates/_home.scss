@@ -1,0 +1,37 @@
+.page-generic-home {
+
+	.custom-logo {
+		width: 50%;
+	}
+
+	h1 {
+		margin-top: 0;
+	}
+
+	.item-select { 
+		
+		border: 1px solid #000;
+		
+		.label-md {
+			color: #000;
+		}
+		
+	}
+	
+	.select-icon { 
+		
+		.select-icon-inner {
+			border-top-color: #000;
+		}
+		
+	}
+	
+	.item-md.item-block { 
+		
+		.item-inner {
+			border: none;
+		}
+		
+	}
+
+}
