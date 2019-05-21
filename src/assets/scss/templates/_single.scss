@@ -10,21 +10,31 @@ post-details {
 		margin-left: 1rem;
 
 		tr {
-			
-			margin-bottom: 2rem;
-			display: block;
 
-			&:last-of-type {
-				margin-bottom: 0;
-			}
+			display: block;
 
 			td:first-of-type {
 				width: 75%;
+				float: left;
+				margin-bottom: 2rem;
 			}
 
 			td:last-of-type {
 				width: 25%;
 				text-align: right;
+				float: right;
+			}
+
+			&:after {
+				clear: both;
+			}
+
+			&:last-of-type {
+
+				td:first-of-type {
+					margin-bottom: 0;
+				}
+
 			}
 
 		}
