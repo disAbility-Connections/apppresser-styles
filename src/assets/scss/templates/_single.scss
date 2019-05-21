@@ -6,7 +6,29 @@ post-details {
 	
 	// The Table/"<ul>"
 	.omsc-toggle-inner {
+
 		margin-left: 1rem;
+
+		tr {
+			
+			margin-bottom: 2rem;
+			display: block;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+
+			td:first-of-type {
+				width: 75%;
+			}
+
+			td:last-of-type {
+				width: 25%;
+				text-align: right;
+			}
+
+		}
+
 	}
 	
 }
